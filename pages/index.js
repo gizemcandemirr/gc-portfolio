@@ -110,7 +110,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center space-x-8">
-                    <Link href="/">
+                    <Link href="/projects">
                       <a className="transition duration-300">Projects</a>
                     </Link>
 
