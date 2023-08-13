@@ -109,26 +109,50 @@ export default function Home() {
                     </p>
                     <p>
                       <span className="text-gray-500">//</span>{" "}
-                      <span className="text-purple-300">Who am I?:</span>
-                      Hi! I am a frontend developer with a passion for the
-                      latest solutions or frameworks and interactive design. ⭕
-                      Tech stack: HTML(5), CSS(3), JavaScript, Typescript,
-                      React, NextJs, Redux, GraphQl, Tailwind CSS, Material UI,
-                      Chakra UI, Sass, Bootstrap ⭕ Frontend Developer with 2+
-                      years of professional experience in Web Designing and User
-                      Interface Development. ⭕ Strong experience with Cross
-                      Browser Compatibility issues and Optimization for the web,
-                      including CSS Sprites and best practices ⭕ Proficiency in
-                      code optimization to improve performance.
+                      <span className="text-purple-300">Who am I?:</span> Hi! I
+                      am a frontend developer with a passion for the latest
+                      solutions or frameworks and interactive design.
                     </p>
-
+                    <ul className="list-none">
+                      <li>
+                        ⭕ Tech stack: HTML(5), CSS(3), JavaScript, Typescript,
+                        React, NextJs, Redux, GraphQl, Tailwind CSS, Material
+                        UI, Chakra UI, Sass, Bootstrap
+                      </li>
+                      <li>
+                        ⭕ Frontend Developer with 2+ years of professional
+                        experience in Web Designing and User Interface
+                        Development.
+                      </li>
+                      <li>
+                        ⭕ Strong experience with Cross Browser Compatibility
+                        issues and Optimization for the web, including CSS
+                        Sprites and best practices.
+                      </li>
+                      <li>
+                        ⭕ Proficiency in code optimization to improve
+                        performance.
+                      </li>
+                    </ul>
+                    <div className="flex items-center space-x-8">
+                      <Link href="/projects">
+                        <a className="transition duration-300">Projects</a>
+                      </Link>
+                      <a
+                        href="https://www.youtube.com/channel/UCiR33IirpRI4T5L-gUpaLhA"
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                        className="transition duration-300"
+                      >
+                        Youtube
+                      </a>
+                    </div>
                     <div className="flex items-center space-x-4">
                       <img
                         src="/images/elmass.png"
                         alt="Me"
                         className="w-32 rounded-full"
                       />
-
                       <div className="">
                         <p className="text-sm">
                           <span className="text-blue-400"> {">"} </span> const
@@ -143,21 +167,6 @@ export default function Home() {
                           ["JavaScript", "TypeScript", "Tailwind"];{" "}
                         </p>
                       </div>
-                    </div>
-
-                    <div className="flex items-center space-x-8">
-                      <Link href="/projects">
-                        <a className="transition duration-300">Projects</a>
-                      </Link>
-
-                      <a
-                        href="https://www.youtube.com/channel/UCiR33IirpRI4T5L-gUpaLhA"
-                        target={"_blank"}
-                        rel="noopener noreferrer"
-                        className="transition duration-300"
-                      >
-                        Youtube
-                      </a>
                     </div>
                   </code>
                 </pre>
